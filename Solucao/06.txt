@@ -1,0 +1,38 @@
+Problem:    06
+Rows:       10
+Columns:    4 (4 integer, 0 binary)
+Non-zeros:  26
+Status:     INTEGER OPTIMAL
+Objective:  Receita = 109 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Receita                   109                             
+     2 m1                         58                          80 
+     3 m2                         20                          20 
+     4 m3                         36                          40 
+     5 mo1                        48                         120 
+     6 mo2                        70                         160 
+     7 max_venda_p1               10                          70 
+     8 max_venda_p2                0                          60 
+     9 max_venda_p3                1                          40 
+    10 max_venda_p4                0                          20 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 p1           *             10             0               
+     2 p2           *              0             0               
+     3 p3           *              1             0               
+     4 p4           *              0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

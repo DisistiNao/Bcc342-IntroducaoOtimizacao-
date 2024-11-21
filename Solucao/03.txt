@@ -1,0 +1,40 @@
+Problem:    Att03
+Rows:       4
+Columns:    4
+Non-zeros:  14
+Status:     OPTIMAL
+Objective:  Receita = 10000 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Receita      B          10000                             
+     2 tabua        NU           250                         250             5 
+     3 prancha      B            125                         250 
+     4 paineis      NU           250                         250            35 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 escrivaninha NL             0             0                         -10 
+     2 mesa         B            125             0               
+     3 armario      NL             0             0                         -25 
+     4 prateleira   B              0             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

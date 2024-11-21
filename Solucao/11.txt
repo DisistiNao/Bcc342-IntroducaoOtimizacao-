@@ -1,0 +1,45 @@
+Problem:    11
+Rows:       10
+Columns:    4 (4 integer, 0 binary)
+Non-zeros:  26
+Status:     INTEGER OPTIMAL
+Objective:  Lucro = 109 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Lucro                     109                             
+     2 data_maquina[1]
+                                  58                          80 
+     3 data_maquina[2]
+                                  20                          20 
+     4 data_maquina[3]
+                                  36                          40 
+     5 data_mo[1]                 48                         120 
+     6 data_mo[2]                 70                         160 
+     7 data_produto[1]
+                                  10                          70 
+     8 data_produto[2]
+                                   0                          60 
+     9 data_produto[3]
+                                   1                          40 
+    10 data_produto[4]
+                                   0                          20 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1]         *             10             0               
+     2 x[2]         *              0             0               
+     3 x[3]         *              1             0               
+     4 x[4]         *              0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,31 @@
+Problem:    04
+Rows:       5
+Columns:    2 (2 integer, 0 binary)
+Non-zeros:  9
+Status:     INTEGER OPTIMAL
+Objective:  Receita = 155 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Receita                   155                             
+     2 carpinteiro                55                          80 
+     3 acabador                  100                         100 
+     4 max_trem                   10                          40 
+     5 mult_soldado               -5                          -0 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 soldado      *             45             0               
+     2 trem         *             10             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
